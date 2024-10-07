@@ -1,0 +1,30 @@
+/* app.css */
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.main-content{
+  display: flex;
+  flex: 1;
+}
+
+.content-wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .content {
+    padding: 10px; /* Adjust padding if necessary */
+  }
+}
